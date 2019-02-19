@@ -71,6 +71,8 @@ export const shouldDownloadAsText = (contentType = '') => /(json|xml|yaml|text)\
 function parseBody(body, contentType) {
   if (contentType && (contentType.indexOf('application/json') === 0 || contentType.indexOf('+json') > 0)) {
     return JSON.parse(body)
+  }else if (contentType && (contentType.indexOf('text/csv') === 0)){
+    return body;
   }
   return jsYaml.safeLoad(body)
 }

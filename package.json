@@ -1,17 +1,18 @@
 {
-  "name": "swagger-client",
-  "version": "3.8.24",
+  "name": "@mr_dj07/swagger-client",
+  "version": "3.8.26",
   "description": "SwaggerJS - a collection of interfaces for OAI specs",
   "main": "dist/index.js",
   "unpkg": "browser/index.js",
-  "repository": "git@github.com:swagger-api/swagger-js.git",
+  "repository": "git@github.com:mrdj07/swagger-js.git",
   "contributors": [
     "(in alphabetical order)",
     "Anna Bodnia <anna.bodnia@gmail.com>",
     "Buu Nguyen <buunguyen@gmail.com>",
     "Josh Ponelat <jponelat@gmail.com>",
     "Kyle Shockey <kyleshockey1@gmail.com>",
-    "Sahar Jafari <shr.jafari@gmail.com>"
+    "Sahar Jafari <shr.jafari@gmail.com>",
+    "Mathieu Savage <savage.mathieu@gmail.com>"
   ],
   "files": [
     "LICENSE",
